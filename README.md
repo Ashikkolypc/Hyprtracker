@@ -20,7 +20,7 @@ A minimal, lightweight screen time tracker for Hyprland on Linux using Fish shel
 ## Installation
 ```fish
 # Clone the repository
-git clone https://github.com/yourusername/hyprtracker.git
+git clone https://github.com/nagabudhamaitreya1-prog/hyprtracker.git
 cd hyprtracker
 
 # Run the installer
