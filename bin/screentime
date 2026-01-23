@@ -1,6 +1,7 @@
 #!/usr/bin/env fish
 
 set LOG "$HOME/.local/share/screentime.log"
+set TODAY (date +%s -d "today 00:00:00")
 
 if not test -f "$LOG"
     echo "No screentime data found"
@@ -10,17 +11,20 @@ end
 echo "Today's Screen Time:"
 echo ""
 
-awk -F',' '
+awk -F',' -v today="$TODAY" '
 {
-    time[$2] += 5
+    timestamp = $1
+    app = $2
+    
+    if (timestamp >= today) {
+        time[app] += 5
+    }
 }
 END {
-    # First pass: collect data with sort key
     for (app in time) {
         seconds = time[app]
         hours = int(seconds / 3600)
         minutes = int((seconds % 3600) / 60)
-        # Print with seconds first for sorting, then format
         printf "%010d %-20s %dh %dm\n", seconds, app, hours, minutes
     }
 }' "$LOG" | sort -rn | awk '{$1=""; print $0}'
