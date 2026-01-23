@@ -1,3 +1,6 @@
+<img width="1280" height="1024" alt="FullLogo_Transparent" src="https://github.com/user-attachments/assets/a4a36aa0-5f1b-4477-b0ed-126c0836fa57" />
+
+:
 # Hyprtracker
 
 A minimal, lightweight screen time tracker for Hyprland on Linux using Fish shell.
